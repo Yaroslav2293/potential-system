@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
+
+.global-wrraper {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header img {
+  padding: 29px 0;
+}
+
+.button-byrger-container {
+  display: inline-block;
+  float: right;
+}
+
+.button-byrger {
+  display: none;
+}
+.menu {
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+  font-size: 14px;
+}
+.menu li {
+  margin: 50px 25px 50px 0;
+  font-size: 10px;
+  list-style: none;
+  display: inline-block;
+  color: #737373;
+}
+
+.menu li a:hover {
+  color: #4fb8e7;
+}
+.menu a {
+  text-decoration: none;
+  color: #737373;
+}
+
+.header-fon {
+  background: url(../img/slidefon.png) no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 200px;
+}
+.header-fon h1 {
+  padding-top: 130px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 60px;
+}
+.header-fon p {
+  font-weight: normal;
+  padding-top: 28px;
+  font-size: 24px;
+  padding-bottom: 165px;
+}
+.header-fon a {
+  background: #42b3e5;
+  padding: 30px 70px 30px 60px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+
+}
+
+.about-us h2 {
+  padding-top: 60px;
+  text-align: center;
+  color: #42b3e5;
+  font-size: 40px;
+}
+.about-us p {
+  text-align: center;
+  padding-top: 18px;
+  margin-bottom: 50px;
+  font-size: 14px;
+  color: #868686;
+  
+}
+.block-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.block div {
+  text-align: center;
+  max-width: 365px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 35px 0;
+  background: url(../img/fon.png) no-repeat center;
+}
+.block div h3 {
+  padding-bottom: 30px;
+}
+.block div p {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 264px;
+}
+
+.block {
+  color: white;
+  max-width: 100%;
+}
+.block img {
+  max-width: 100%;
+}
+.block div:hover {
+  background: url(../img/contactusfon.png) no-repeat center;
+}
+
+.services {
+  background: url(../img/background.png) no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.services p {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.services h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.services-container p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.services-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.our-team {
+  margin-bottom: 90px;
+}
+.our-team h3 {
+  text-align: center;
+  padding-top: 80px;
+  color: #42b3e5;
+  font-size: 40px;
+  padding-bottom: 55px;
+}
+.team-doctors {
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.photo {
+  display: flex;
+}
+
+.doctors {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.doctors-content,
+.doctors-content-2 {
+  position: relative;
+  background: url("../img/fon.png") no-repeat;
+  height: 233px;
+  width: 234px;
+  transition: 1s;
+  margin: 0;
+  padding: 0;
+} 
+
+.doctors-content:before {
+  top: -10px;
+  left: 50%;
+  margin-left: -9px;
+  position: absolute;
+  background: url("../img/fon.png") no-repeat;
+  content: "";
+  width: 18px;
+  height: 18px;
+  transform: rotate(45deg);
+  transition: 1s;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.doctors-content-2:before {
+  top: 224px;
+  left: 50%;
+  margin-left: -9px;
+  position: absolute;
+  background: url("../img/fon.png") no-repeat;
+  content: "";
+  width: 18px;
+  height: 18px;
+  transform: rotate(45deg);
+  transition: 1s;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.doctors-content:hover:before,
+.doctors-content-2:hover:before {
+  background: url("../img/contactusfon.png") no-repeat;
+  transition: 1s;
+}
+
+.doctors-content:hover,
+.doctors-content-2:hover {
+  background: url("../img/contactusfon.png") no-repeat;
+  transition: 1s;
+}
+
+.doctors-content p,
+.doctors-content-2 p {
+  margin: 19px 0 0 15px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.doctors-content h4,
+.doctors-content-2 h4 {
+  padding-top: 20px;
+  margin-left: 15px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.maps {
+  background: url(../img/maps.png) no-repeat;
+  background-size: cover;
+  padding: 120px;
+
+}
+.contacts {
+  background: url(../img/contactusfon.png) no-repeat;
+  background-size: cover;
+}
+
+.contacts h2 {
+  padding-top: 75px;
+  margin-bottom: 45px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+
+.contact-information {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.leave-messeage {
+  float: right;
+  margin-right: 60px;
+}
+
+.contact-information h3 {
+  padding-left: 25px;
+  font-size: 30px;
+}
+.leave-messeage h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.information-content {
+  margin: 20px 0 50px 0;
+}
+
+.information-content p {
+  margin-top: 30px;
+  font-size: 14px;
+}
+.information-content img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.forms {
+  margin-top: 50px;
+}
+.forms input {
+  width: 100%;
+  max-width: 500px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.forms textarea {
+  width: 100%;
+  max-width: 500px;
+  height: 140px;
+
+}
+
+input[type="button"] {
+  float: right;
+  max-width: 180px;
+  height: 50px;
+  margin-top: 10px;
+  background: #1c1c1c;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input, textarea {
+  padding-left: 10px;
+}
+
+.footer p {
+  padding: 25px;
+  display: inline-block;
+  font-size: 12px;
+}
+.footer-menu {
+  list-style: none;
+  float: right;
+  padding: 25px;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+svg {
+  fill: #b1b1b1;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg:hover {
+  fill: #42b3e5;
+}
+
+@media screen and (max-width: 1190px) {
+.header-fon {
+  text-align: center;
+}
+
+.team-doctors {
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctors { 
+  flex-direction: row; 
+}
+
+.doctors-content:before,
+.doctor-content-2:before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .block-container {
+    text-align: center;
+    display: block;
+  }
+
+  .block {
+    display: block;
+    text-align: center;
+  }
+
+  .services-block {
+    text-align: center;
+    display: block;
+  }
+
+  .information-content p {
+    font-size: 10px;
+  }
+
+  .contact-information {
+    display: block;
+    text-align: center;
+  }
+  .contact-information h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .leave-messeage {
+    float: none;
+  }
+
+  .leave-messeage h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .leave-messeage {
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+
+  input[type="button"] {
+    float: none;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .doctors {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+ .photo { 
+    order: -1;
+    padding-top: 5px;
+    margin-bottom: -2px;
+ }
+
+  .contacts {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .button-byrger {
+    color: lightblue;
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+  display: none;
+  position: absolute;
+  background: #0c212c;
+  padding: 10px;
+  right: 100px;
+  top: 110px;
+  }
+
+  .menu li {
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+  .menu li a {
+    color: white;
+  }
+
+  input[type="button"] {
+    float: none;
+  }
+  
+  .maps {
+    padding: 30px;
+  }
+  .header-fon {
+    text-align: center;
+  }
+  .header-fon h1 {
+    font-size: 30px;
+  }
+
+  .information-content p {
+    font-size: 10px;
+  }
+
+  .contact-information {
+    display: block;
+    text-align: center;
+  }
+  .contact-information h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .leave-messeage {
+    float: none;
+  }
+
+  .leave-messeage h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .leave-messeage {
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+  .contacts h2 {
+    font-size: 25px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer-menu {
+    text-align: center;
+    float: none;
+  }
+
+  .contact-information > img,
+  .leave-messeage > img {
+    width: 80%;
+  }
+}
